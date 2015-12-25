@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/zpaper"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:padding="5dp"
+        android:id="@+id/iv_detail"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/alpha" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/iv_detail"
+        android:background="#3D3C3A" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/iv_detail"
+                android:layout_marginTop="3dp"
+                android:text="Nama"
+                android:textColor="#FF0000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textStyle="italic" />
+            
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/iv_detail"
+                android:layout_marginTop="3dp"
+                android:text="Versi"
+                android:textColor="#FF0000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvVersi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/iv_detail"
+                android:layout_marginTop="3dp"
+                android:text="API"
+                android:textColor="#FF0000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvApi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textStyle="italic" />
+            
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/iv_detail"
+                android:layout_marginTop="3dp"
+                android:text="Fitur"
+                android:textColor="#FF0000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFitur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textStyle="italic" />
+            
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/iv_detail"
+                android:layout_marginTop="3dp"
+                android:text="Tanggal Rilis"
+                android:textColor="#FF0000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTgl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

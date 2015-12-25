@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   
+    android:id="@+id/main_layout" 
+    android:background="@drawable/zbg1"
+    tools:context=".MainActivity" >
+
+    <TableLayout
+        android:gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/arti_button"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/zandroid2" />
+
+            <ImageButton
+                android:id="@+id/daftar_button"
+                android:layout_marginLeft="5dp"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/zandroidv2" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/about_button"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/zabout2" />
+
+            <ImageButton
+                android:id="@+id/exit_button"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/zexit2" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+    </TableLayout>
+        
+</LinearLayout>
